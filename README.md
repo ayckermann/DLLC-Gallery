@@ -1,3 +1,4 @@
+# ANDA NYURI YA?
 # DLLC-Gallery
 Program Double Linked List Circular - Galeri Foto
 

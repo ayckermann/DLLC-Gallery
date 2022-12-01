@@ -1,4 +1,4 @@
-# ANDA NYURI YA?
+# ANDA NYURI YA? COPAS AJA :v
 # DLLC-Gallery
 Program Double Linked List Circular - Galeri Foto
 

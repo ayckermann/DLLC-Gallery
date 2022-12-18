@@ -286,7 +286,7 @@ void cari_data(){
         string datacari;
         bantu = head;
         int flag=0;
-        cout << "input cari apa : "; getline(cin >> ws, datacari);;
+        cout << "input cari apa : "; getline(cin >> ws, datacari);
         do {
             if(datacari == bantu->file_name) {
                 flag=1;
@@ -309,7 +309,7 @@ void cari_data(){
 //buat sorting ukuran
 void sorting_ukuran(){
     dll* bantu2 = head->next;
-    cout << " 1. ASCENDING or 2. DESCENING?\n";
+    cout << " 1. ASCENDING or 2. DESCENDING?\n";
     int pilih; cin >> pilih;
     while (bantu2 != tail->next)
     {
@@ -354,7 +354,7 @@ void sorting_ukuran(){
 //buat sorting waktu
 void sorting_waktu(){
     dll* bantu2 = head->next;
-    cout << " 1. ASCENDING or 2. DESCENING?\n";
+    cout << " 1. ASCENDING or 2. DESCENDING?\n";
     int pilih; cin >> pilih;
     while (bantu2 != tail->next)
     {
@@ -396,7 +396,7 @@ void sorting_waktu(){
 
 void sorting_nama() {
     dll* bantu2 = head->next;
-    cout << " 1. ASCENDING or 2. DESCENING?\n";
+    cout << " 1. ASCENDING or 2. DESCENDING?\n";
     int pilih; cin >> pilih;
     while (bantu2 != tail->next)
     {
